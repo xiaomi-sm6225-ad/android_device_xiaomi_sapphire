@@ -58,7 +58,6 @@ system_ext/etc/permissions/audiosphere.xml
 system_ext/framework/audiosphere.jar
 vendor/lib/hw/audio.primary.bengal.so
 vendor/lib/libadm.so
-vendor/lib/libalsautils.so
 vendor/lib/libar-acdb.so
 vendor/lib/libar-gpr.so
 -vendor/lib/libar-gsl.so
@@ -74,10 +73,8 @@ vendor/lib/libpalclient.so
 vendor/lib/libqtigefar.so
 vendor/lib/libsndcardparser.so
 -vendor/lib/vendor.qti.hardware.pal@1.0-impl.so
-vendor/lib/vendor.qti.hardware.pal@1.0.so
 vendor/lib64/hw/audio.primary.bengal.so
 vendor/lib64/libadm.so
-vendor/lib64/libalsautils.so
 vendor/lib64/libar-acdb.so
 vendor/lib64/libar-gpr.so
 -vendor/lib64/libar-gsl.so
@@ -93,7 +90,6 @@ vendor/lib64/libpalclient.so
 vendor/lib64/libqtigefar.so
 vendor/lib64/libsndcardparser.so
 -vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.pal@1.0.so
 
 # Audio (FX modules)
 vendor/lib64/soundfx/libmisoundfx.so
@@ -139,7 +135,6 @@ vendor/lib/libagm_compress_plugin.so
 vendor/lib/libagm_mixer_plugin.so
 vendor/lib/libagm_pcm_plugin.so
 -vendor/lib/vendor.qti.hardware.AGMIPC@1.0-impl.so
-vendor/lib/vendor.qti.hardware.AGMIPC@1.0.so
 -vendor/lib64/libagm.so
 vendor/lib64/libagmclient.so
 vendor/lib64/libagmmixer.so
@@ -147,7 +142,6 @@ vendor/lib64/libagm_compress_plugin.so
 vendor/lib64/libagm_mixer_plugin.so
 vendor/lib64/libagm_pcm_plugin.so
 -vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so
 
 # Battery
 vendor/bin/battery_stats
@@ -367,8 +361,6 @@ vendor/lib64/libvidhance_stabilizer.so
 vendor/lib64/libwa_dof.so
 vendor/lib64/libwa_rtdof.so
 vendor/lib64/libxmi_high_dynamic_range.so
-system/lib/libpiex.so:vendor/lib/libpiex.so
-system/lib64/libpiex.so:vendor/lib64/libpiex.so
 
 # Camera postproc
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
@@ -695,8 +687,6 @@ odm/lib64/hw/fingerprint.goodix_fod.default.so:vendor/lib64/hw/fingerprint.goodi
 odm/lib64/libgf_hal.so:vendor/lib64/libgf_hal.so
 vendor/lib64/libmifpext.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 
 # Firmware touch
 odm/firmware/Conf_MultipleTest_ft3519t.ini:vendor/firmware/Conf_MultipleTest_ft3519t.ini

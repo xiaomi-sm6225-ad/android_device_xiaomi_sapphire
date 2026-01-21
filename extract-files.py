@@ -28,7 +28,15 @@ namespace_imports = [
 
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
-    (): lib_fixup_remove,
+    (
+        'libar-pal',
+        'libar-acdb',
+        'liblx-osal',
+        'libats',
+        'libagm',
+        'libpalclient',
+
+    ): lib_fixup_remove,
 }
 
 blob_fixups: blob_fixups_user_type = {

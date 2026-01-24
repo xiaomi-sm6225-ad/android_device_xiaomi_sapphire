@@ -54,12 +54,12 @@ system_ext/etc/permissions/audiosphere.xml
 system_ext/framework/audiosphere.jar
 vendor/lib/libadm.so
 vendor/lib/libaudio_log_utils.so
-vendor/lib/libmcs.so
-vendor/lib/libqtigefar.so
+vendor/lib/libmcs.so;DISABLE_CHECKELF
+vendor/lib/libqtigefar.so;DISABLE_CHECKELF
 vendor/lib64/libadm.so
 vendor/lib64/libaudio_log_utils.so
-vendor/lib64/libmcs.so
-vendor/lib64/libqtigefar.so
+vendor/lib64/libmcs.so;DISABLE_CHECKELF
+vendor/lib64/libqtigefar.so;DISABLE_CHECKELF
 
 # Audio (FX modules)
 vendor/lib64/soundfx/libmisoundfx.so
@@ -247,7 +247,7 @@ vendor/lib64/libarcsoft_supernight.so
 vendor/lib64/libbase64.so
 vendor/lib64/libbitmlengine.so
 vendor/lib64/libc++_shared.so
-vendor/lib64/libc++_shared_vf.so
+vendor/lib64/libc++_shared_vf.so;FIX_SONAME
 vendor/lib64/libcalculator.so
 vendor/lib64/libcalculator_htp.so
 vendor/lib64/libcamera_nn_stub.so
@@ -290,7 +290,7 @@ vendor/lib64/libmorpho_ImageRefiner.so
 vendor/lib64/libmorpho_ImageRefinerLite.so
 vendor/lib64/libmorpho_Ldc.so
 vendor/lib64/libmorpho_MFNR.so
-vendor/lib64/libmorpho_ldc.so
+vendor/lib64/libmorpho_ldc.so;FIX_SONAME
 vendor/lib64/libmorpho_ubwc.so
 vendor/lib64/libmorpho_video_stabilizer.so
 vendor/lib64/libmpbase.so
